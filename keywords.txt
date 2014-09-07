@@ -1,0 +1,20 @@
+#######################################
+# Syntax Coloring For Signal Generator
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SignalGenerator                KEYWORD1
+SineSignalGenerator            KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin                          KEYWORD2
+enable                         KEYWORD2
+disable                        KEYWORD2
+outputFrame                    KEYWORD2
+outputFrameFromLatestGenerator KEYWORD2
