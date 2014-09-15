@@ -20,12 +20,12 @@ public:
 class SineSignalGenerator : public SignalGenerator {
 public:
   SineSignalGenerator(
-    uint8_t framerate,
-    float sineFrequency,
-    uint8_t minBrightness,
-    uint8_t maxBrightness,
-    uint32_t color,
-    RadioshackStrip& leds);
+      uint8_t framerate,
+      float sineFrequency,
+      uint8_t minBrightness,
+      uint8_t maxBrightness,
+      uint32_t color,
+      RadioshackStrip& leds);
   virtual ~SineSignalGenerator();
   
   virtual void begin();
